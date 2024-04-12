@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('car.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+header{
+    font-size: 30px;
+}
+
+.header li{
+    display: flex;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.content{
+    color: white;
+    margin : 100px  ;
+    display: flex;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h1{
+    font-size: 50px;
+    letter-spacing: 8px;
+    margin-bottom: 5px;
+}
+
+.content p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+span{
+    color: yellow;
+} 
+
+.content button{
+    margin: 15px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+}
+
+button:hover{
+    background: gray;
+    color:white;
+}
